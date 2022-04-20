@@ -7,9 +7,9 @@ console.log(showButton);
 console.log(animal);
 // set event listeners 
 
-    showButton.addEventListener('click', () => {
-        animal.classList.remove('hidden');
-    });
+showButton.addEventListener('click', () => {
+    animal.classList.remove('hidden');
+});
 
 
     // get user input
