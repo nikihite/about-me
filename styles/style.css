@@ -75,6 +75,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+.dogCaption {
+    color:rgb(204, 0, 102)
+}
+
 #body {
     background-color: bisque;
 }
