@@ -31,6 +31,65 @@ body {
     font-family: 'Hubballi', cursive;;
     background-color: var(--color2);
 }
+#myName {
+    text-align: center;
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mainDesign {
+    background-color:lightpink;
+}
+
+#italicize {
+        font-style: italic;
+}
+
+#buttonStyle {
+    text-align: center;
+}
+
+#pink {
+    color: rgb(226, 12, 119);
+}
+
+#bold {
+    font-weight: bold
+
+}
+#pronouns {
+    text-align: center;
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#myHome {
+    text-align: center;
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#photoCaption {
+    text-align: center;
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.dogCaption {
+    color:rgb(204, 0, 102)
+}
+
+#body {
+    background-color: bisque;
+}
+
+#center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+};
 
 main {
     display: flex;
@@ -55,9 +114,9 @@ section {
 }
 
 header {
+    background-color: pink;
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
