@@ -31,6 +31,9 @@ body {
     font-family: 'Hubballi', cursive;;
     background-color: var(--color2);
 }
+.hidden {
+    display: none;
+};
 
 main {
     display: flex;
@@ -55,9 +58,10 @@ section {
 }
 
 header {
+    background-color: pink;
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    // background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
