@@ -8,7 +8,7 @@ console.log(animal);
 // set event listeners 
 
 showButton.addEventListener('click', () => {
-    animal.classList.remove('hidden');
+    animal.classList.toggle('hidden');
 });
 
 
